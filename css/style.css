@@ -90,13 +90,12 @@ nav {
 
 #logo a {
     float: left;
-    font-size: 0.8em;
+    font-size: 1.8em;
     padding: 10px 20px;
     text-decoration: none;
     color: #333;
     font-weight: 700;
     font-family: 'Source Sans Pro', sans-serif;
-    text-transform: capitalize;
 }
 
 
