@@ -914,7 +914,6 @@ a.nice-link:hover:after {
     font-size: 4em;
     font-weight: 700;
     letter-spacing: 1px;
-    text-transform: capitalize;
 }
 
 .banner-info-wthree {
