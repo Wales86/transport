@@ -107,8 +107,8 @@ nav {
     font-size: 28px;
 }
 
-    /* Since we'll have the "ul li" "float:left"
-     * we need to add a clear after the container. */
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
 
 nav:after {
     content: "";
@@ -231,7 +231,7 @@ li > a:only-child:after {
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width:768px) {
+@media all and (max-width: 768px) {
 
     #logo {
         display: block;
@@ -268,6 +268,7 @@ li > a:only-child:after {
         cursor: pointer !important;
         margin-top: 0.5em;
     }
+
     .menu .toggle {
         float: none;
         text-align: center;
@@ -299,9 +300,11 @@ li > a:only-child:after {
         width: 100%;
         padding: 5px 0;
     }
+
     nav ul li {
         margin: 0px 0em;
     }
+
     nav ul ul .toggle,
     nav ul ul a {
         padding: 0 40px;
@@ -350,6 +353,7 @@ li > a:only-child:after {
         position: static;
         /* has to be the same number as the "width" of "nav ul ul li" */
     }
+
     nav ul ul li a {
         font-size: 0.9em;
     }
@@ -814,7 +818,7 @@ a.nice-link:hover:after {
 
 /*-- /slider-Responsive --*/
 
-@media screen and (max-width:1366px) {
+@media screen and (max-width: 1366px) {
     .csslider > ul {
         height: 650px;
     }
@@ -832,20 +836,23 @@ a.nice-link:hover:after {
     }
 }
 
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+}
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+}
 
 @media screen and (max-width: 800px) {
     .csslider > ul {
         height: 500px;
     }
+
     .csslider > .arrows {
         width: 99%;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .csslider > ul {
         height: 435px;
     }
@@ -863,6 +870,7 @@ a.nice-link:hover:after {
     .csslider > ul {
         height: 380px;
     }
+
     .csslider > .arrows {
         width: 97%;
     }
@@ -896,7 +904,8 @@ a.nice-link:hover:after {
 
 }
 
-@media screen and (max-width: 320px) {}
+@media screen and (max-width: 320px) {
+}
 
 /*-- //slider-Responsive --*/
 
@@ -942,7 +951,7 @@ a.nice-link:hover:after {
 .bs-slider-overlay1 {
     width: 100%;
     height: 100%;
-    background: url(../images/dott.png)repeat 0px 0px;
+    background: url(../images/dott.png) repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -986,10 +995,12 @@ h3.heading {
 .bg {
     background: #30c39e;
 }
+
 .counter-gd-w3ls span {
     font-size: 2.5em;
     color: #fff;
 }
+
 /*-- //heading --*/
 
 .about-in .card span {
@@ -1072,7 +1083,7 @@ h3.tittle {
     letter-spacing: 1px;
     color: #212529;
     font-weight: 700;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .sub-tittle {
@@ -1764,6 +1775,7 @@ a.move-top span {
     .ab-info h3 {
         font-size: 1.8em;
     }
+
     h3.tittle {
         font-size: 2.3em;
     }
@@ -1775,9 +1787,11 @@ a.move-top span {
         width: 90%;
         margin: auto;
     }
+
     .banner-info-wthree h3 {
         font-size: 3.5em;
     }
+
     #about {
         min-height: 41em;
     }
@@ -1787,6 +1801,7 @@ a.move-top span {
     .page-inner {
         min-height: 210px;
     }
+
     .speak {
         margin: 0 auto;
         width: 100%;
@@ -1797,36 +1812,46 @@ a.move-top span {
     #about {
         min-height: 29em;
     }
+
     .bottom-gd,
     .bottom-gd2-active {
         margin-bottom: 1em;
     }
+
     .thumbnail.card {
         margin: 1em 0;
     }
+
     li.address-content-inf-w3ls:nth-child(2) {
         margin: 2em 0;
     }
+
     .banner-info-wthree h3 {
         font-size: 3em;
     }
+
     .banner-info-wthree h6 {
         font-size: 15px;
         letter-spacing: 6px;
     }
+
     .banner-info-wthree {
         padding: 13em 0 0;
         width: 90%;
     }
+
     li.nav-item {
         list-style: none;
     }
+
     .thumbnail.card img {
         width: 100%;
     }
+
     .parts-w3ls span {
         font-size: 2em;
     }
+
     .popup {
         width: 60%;
     }
@@ -1842,66 +1867,77 @@ a.move-top span {
     .banner-info-wthree h3 {
         font-size: 2.8em;
     }
+
     .banner-info-wthree {
         padding: 13em 0 0;
         width: 90%;
     }
+
     .count-text {
         font-size: 12px;
         margin-top: 10px;
     }
+
     .count-title {
         font-size: 2em;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .ab-info h3 {
         font-size: 1.6em;
     }
+
     h5.blog-title a {
         font-size: 1em;
     }
+
     .logo-2 a {
         font-size: 1em;
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .address-content-inf-w3ls,
     .loaction-content {
         text-align: center;
     }
+
     .icon-right p {
         text-align: center;
     }
+
     .icon-right {
         text-align: center;
         margin-top: 1.2em;
     }
+
     .banner-info-wthree h3 {
         font-size: 2.5em;
     }
 }
 
-@media screen and (max-width:736px) {
+@media screen and (max-width: 736px) {
     .contact_grid_left {
         margin: 0 0 2em 0;
         padding-bottom: 2em;
     }
+
     .counter-gd-w3ls {
         float: left;
         width: 50%;
     }
-	.contact-page button.btn.btn-default {
-    width: 30%;
-}
+
+    .contact-page button.btn.btn-default {
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 667px) {
     h3.tittle {
         font-size: 2em;
     }
+
     .ab-info h3 {
         font-size: 1.4em;
     }
@@ -1912,7 +1948,8 @@ a.move-top span {
         padding: 9em 0 0;
         width: 90%;
     }
-	    .popup {
+
+    .popup {
         width: 80%;
     }
 }
@@ -1922,12 +1959,15 @@ a.move-top span {
         font-size: 14px;
         letter-spacing: 4px;
     }
+
     .banner-info-wthree h3 {
         font-size: 1.8em;
     }
+
     .card-body {
         margin-left: 1em;
     }
+
     .card.flex-row {
         display: block;
     }
@@ -1937,33 +1977,46 @@ a.move-top span {
     .ab-info h3 {
         font-size: 1.3em;
     }
+
     .banner-info-wthree {
         padding: 7em 0 0;
         width: 90%;
     }
 }
+
 @media screen and (max-width: 440px) {
-.contact-page button.btn.btn-default {
-    width: 38%;
+    .contact-page button.btn.btn-default {
+        width: 38%;
+    }
 }
-}
+
 @media screen and (max-width: 384px) {
     .csslider > ul {
         height: 308px;
     }
+
     h3.tittle {
         font-size: 1.8em;
+    }
+
+    #logo img {
+        height: 60px;
+    }
+
+    #slogan {
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 320px) {
-	#logo a {
-    font-size: 0.7em;
-    padding: 8px 0px;
-}
-.contact-page button.btn.btn-default {
-    width: 45%;
-}
+    #logo a {
+        font-size: 0.7em;
+        padding: 8px 0px;
+    }
+
+    .contact-page button.btn.btn-default {
+        width: 45%;
+    }
 }
 
 /*-- //Responsive design --*/
